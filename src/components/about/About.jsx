@@ -29,7 +29,7 @@ const About = ({getHeight})=>{
             <article className="about__card">
               <FaAward className="about__icon"/>
               <h5>Experience</h5>
-              <small>1+ year experience</small>
+              <small>1.5+ year experience</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon"/>
@@ -38,7 +38,7 @@ const About = ({getHeight})=>{
             </article>
           </div>
         <p>Hello!My name is Sayan Biswas,and I'm a fullstack web developer.
-        I have an in-depth knowledge of HTML, CSS, JavaScript, Django, and MySQL.
+        I have an in-depth knowledge of HTML, CSS, JavaScript,React, Next, Express, Django, MongoDB and MySQL.
         On my portfolio website, you can find examples of my work, including the projects I have completed and the technologies I have used. If you need help with a project or have any questions, please do not hesitate to reach out. I look forward to helping you bring your ideas to life!</p>
         <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
