@@ -31,7 +31,7 @@ const Experience = ({getHeight})=> {
 	  		<BsPatchCheckFill className="experience__icon" />
 	  		<div>
 	  		<h4>HTML</h4>
-	  		<small className="text-light">Experirence</small>
+	  		<small className="text-light">Experirenced</small>
 	  		</div>
 	  		</article>
 	  	  <article className="experience__details">
@@ -59,14 +59,14 @@ const Experience = ({getHeight})=> {
           <BsPatchCheckFill className="experience__icon" />
           <div>
           <h4>React</h4>
-          <small className="text-light">basic</small>
+          <small className="text-light">Intermediate</small>
           </div>
           </article>
 	  	    <article className="experience__details">
             <BsPatchCheckFill className="experience__icon" />
             <div>
             <h4>Tailwind</h4>
-            <small className="text-light">None</small>
+            <small className="text-light">Experirenced</small>
             </div>
           </article>
     </div>
@@ -82,7 +82,7 @@ const Experience = ({getHeight})=> {
                                                                                                 <article className="experience__details">
                         <BsPatchCheckFill className="experience__icon" />
                         <div>
-          <h4>Node JS</h4>                                                                                              <small className="text-light">Basic</small>
+          <h4>Node JS</h4>                                                                                              <small className="text-light">Intermediate</small>
         </div>
       </article>
                     <article className="experience__details">
@@ -101,7 +101,7 @@ const Experience = ({getHeight})=> {
       </article>
                     <article className="experience__details">
                         <BsPatchCheckFill className="experience__icon" />                                                           <div>
-          <h4>MongoDB</h4>                                                                                            <small className="text-light">Basic</small>
+          <h4>MongoDB</h4>                                                                                            <small className="text-light">Intermediate</small>
         </div>
       </article>
                                                                                                       <article className="experience__details">
