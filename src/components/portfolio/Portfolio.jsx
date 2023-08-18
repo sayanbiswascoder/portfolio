@@ -19,7 +19,7 @@ const Portfolio = ({getHeight})=>{
     setHeight(ref.current.clientHeight)
     getHeight(ref.current.clientHeight)
     
-  },[getHeight, height])
+  },[getHeight,ref,height])
   return(
     <div ref={ref}>
     <section id="portfolio">
