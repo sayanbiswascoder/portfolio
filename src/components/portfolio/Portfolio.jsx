@@ -17,9 +17,9 @@ const Portfolio = ({getHeight})=>{
 
   useEffect(() => {
     setHeight(ref.current.clientHeight)
+    getHeight(ref.current.clientHeight)
     
-  },[height])
-  getHeight(height)
+  },[getHeight, height])
   return(
     <div ref={ref}>
     <section id="portfolio">
