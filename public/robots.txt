@@ -3,4 +3,4 @@ Allow: /
 
 
 
-Sitemap: http://sayanbiswas.tech/sitemap.xml
+Sitemap: https://sayanbiswas.tech/sitemap.xml
