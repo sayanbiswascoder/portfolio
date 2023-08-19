@@ -48,7 +48,7 @@ header{
 
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 25vw;
+  width: 15vw;
   height: 30rem;
   position: absolute;
   left: 50%;
@@ -75,7 +75,7 @@ header{
     height: 68vh;
   }
   .me {
-    width: 20rem;
+    width: 40vw;
   }
 }
 
@@ -91,6 +91,6 @@ header{
     display: flex;
   }
   .me {
-    width: 40vh;
+    width: 80vw;
   }
 }
