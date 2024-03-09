@@ -14,7 +14,7 @@ const projectrs = [
         "desc": "This is a fully functional E-Comerce site.",
         "fontColor":"white",
         "sourceIcon":<BsGithub/>,
-        "sourceUrl": "https://github.com/sayan-the-rat/candyhub",
+        "sourceUrl": "https://github.com/sayanbiswascoder/candyhub",
         "url":"https://candyhub.vercel.app",
         "imgUrl":IMG1
     },
@@ -23,7 +23,7 @@ const projectrs = [
         "desc": "Here You can download youtube and facebook video localy.",
         "fontColor":"#4db5ff",
         "sourceIcon":<BsGithub/>,
-        "sourceUrl": "https://github.com/sayan-the-rat/sbloader",
+        "sourceUrl": "https://github.com/sayanbiswascoder/sbloader",
         "url":"https://sbloader.sayanbiswas8.repl.co",
         "imgUrl":IMG2
     },
@@ -41,7 +41,7 @@ const projectrs = [
         "desc": "Online Sudoku Solver.",
         "fontColor":"white",
         "sourceIcon":<BsGithub/>,
-        "sourceUrl": "https://github.com/sayan-the-rat/sudoku-solver",
+        "sourceUrl": "https://github.com/sayanbiswascoder/sudoku-solver",
         "url":"https://sudoku-solver-bysb.vercel.app",
         "imgUrl":IMG4
     },
@@ -59,7 +59,7 @@ const projectrs = [
         "desc": "ToDo Chart manager to manage all your work.",
         "fontColor":"#4db5ff",
         "sourceIcon":<BsGithub/>,
-        "sourceUrl": "https://github.com/sayan-the-rat/todo",
+        "sourceUrl": "https://github.com/sayanbiswascoder/todo",
         "url":"https://sayan-the-rat.github.io/todo/",
         "imgUrl":IMG6
     }

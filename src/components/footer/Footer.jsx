@@ -24,7 +24,7 @@ const Footer = ()=>{
 	<div className="footer__socials">
 	    <a href="https://twitter.com/sayan_the_rat" rel='noreferrer' target='_blank'><FiTwitter/></a>
 	    <a href="https://www.facebook.com/profile.php?id=100056755894484&mibextid=ZbWKwL" rel='noreferrer' target='_blank'><FiFacebook/></a>
-	    <a href="https://instagram.com/sayan_coder" rel='noreferrer' target='_blank'><FiInstagram/></a>
+	    <a href="https://instagram.com/sayan_the_rat" rel='noreferrer' target='_blank'><FiInstagram/></a>
 	</div>
 
 	<div className="footer_copyright">
