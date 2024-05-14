@@ -7,7 +7,6 @@ import projects from './projects'
 import {MdOpenInNew} from 'react-icons/md'
 
 const Portfolio = ({getHeight})=>{
-  console.log(projects)
   AOS.init({
     offset: 240,
     duration: 600,
@@ -16,8 +15,10 @@ const Portfolio = ({getHeight})=>{
   const ref = useRef(null)
 
   useEffect(() => {
-    setHeight(ref.current.clientHeight)
-    getHeight(ref.current.clientHeight)
+    window.onload = () => {
+      setHeight(ref.current.clientHeight)
+      getHeight(ref.current.clientHeight)
+    }
     
   },[getHeight,ref,height])
   return(
@@ -28,9 +29,9 @@ const Portfolio = ({getHeight})=>{
       
       <div className="container portfolio__container">
         {
-          projects.map(elm=>{
+          projects.map((elm, ind) =>{
             return(
-              <article className="portfolio__item" data-aos="zoom-in">
+              <article key={ind} className="portfolio__item" data-aos="zoom-in">
                 <div className="portfolio__item-image">
                   <img src={elm.imgUrl} alt="portfolio_image1"/>
                 </div>
