@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import './header.css'
 import HeaderSocial from './HeaderSocial'
-import ME from "../../assets/me.png"
+import ME from "../../assets/me4.png"
 import HeaderSocialMobile from './HeaderSocialMobile'
 
 const Header = ({getHeight})=>{
