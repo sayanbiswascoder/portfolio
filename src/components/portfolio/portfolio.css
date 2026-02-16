@@ -21,7 +21,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
   visibility: hidden;
   position: absolute;
@@ -63,7 +63,7 @@
 }
 
 .portfolio__item-content h3 {
-  margin: 1.2rem 0 1rem;
+  margin: 0.7rem 0 1rem;
 }
 
 .portfolio__item-cta {
@@ -73,8 +73,10 @@
 }
 
 .btn {
-  
-  padding: 5px 10px;
+  padding: 0px 5px;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
 }
 
 /* .openbtn:hover{

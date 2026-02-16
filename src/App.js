@@ -13,6 +13,7 @@ import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Error404 from './components/Error/Error404'
 import Footer from './components/footer/Footer'
+import SEO from './components/common/SEO'
 import {useState} from 'react'
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
     <Router>
     <Routes>
     <Route exact path='/' element={[
-      <Header getHeight={height=> setHeaderHeight(height)}/>,
+      <SEO key="seo"/>,
+      <Header key="header" getHeight={height=> setHeaderHeight(height)}/>,
       <Nav hh={headerHeight} ah={aboutHeight} eh={expHeight} ph={portHeight}/>,
       <About getHeight={height=> setAboutHeight(height)}/>,
       <Experience getHeight={height=> setExpHeight(height)}/>,
